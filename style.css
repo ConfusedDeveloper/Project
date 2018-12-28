@@ -58,10 +58,12 @@ img{
 
 #start-second h1{
     font-size: 3rem;
+    padding-top: 70px;
 }
 #start-second p{
     font-size: 1.2rem;
     text-align: center;
+     padding-top: 50px;
     
 }
 
@@ -88,6 +90,15 @@ img{
 #display #gallery-img figcaption{
     padding-top: 20px;
     padding-left: 10px;
+}
+
+#logo{
+    box-shadow: none;
+    height: 20rem;
+    width: 400px;
+    position: absolute;
+    top: 70px;
+    left: 50px;
 }
 
 
