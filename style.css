@@ -75,6 +75,22 @@ img{
     background-size: cover;
 }
 
+#display #gallery-img img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#display #gallery-img #gallery-1,#gallery-3{
+ padding-top: 30px;
+}
+
+#display #gallery-img figcaption{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+
 #first{
     animation-name: second;
     animation-duration: 2s;
