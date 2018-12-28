@@ -1,0 +1,142 @@
+/*font-family: 'Staatliches', cursive;*/
+/*font-family: 'Libre Baskerville', serif;*/
+/*font-family: 'Lobster', cursive;*/
+/*font-family: 'ZCOOL KuaiLe', cursive;*/
+/*font-family: 'Fredoka One', cursive;*/
+/*font-family: 'Righteous', cursive;*/
+header
+{
+    padding-top: 30px;
+font-family: 'Staatliches', cursive;
+}
+
+p{
+    font-family: 'Lobster', cursive;
+}
+.display-1{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.img-fluid{
+    width: 100%;
+    height:400px;
+}
+.circle{
+    border-radius: 30px;  
+}
+img{
+    box-shadow: 1px 8px 32px 4px black;
+}
+
+.card-img-top
+{
+    border-radius: 10px;
+}
+.grey{ 
+      width: 500px;
+    font-family:serif
+}
+#team{
+  opacity: 0.3;
+}
+
+#about,#reach,#team{
+    padding-top: 5%;
+}
+
+
+#start{
+    background-image: url(img/customized_start.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color:wheat;
+    height: 500px;
+}
+
+
+#start-second h1{
+    font-size: 3rem;
+}
+#start-second p{
+    font-size: 1.2rem;
+    text-align: center;
+    
+}
+
+#display{
+    height: 600px;
+    max-width: 100%;
+    background-image: url(img/display.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#first{
+    animation-name: second;
+    animation-duration: 2s;
+    position: relative;
+    animation-iteration-count: infinite;
+    font-size: 2rem;
+}
+
+
+#about{
+    height: 500px;
+    width: 100%;
+
+}
+#about-image{
+    height: 350px;
+    width: 100%;
+}
+#reach
+{
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+color:white;
+}
+#map{
+padding-left: 10px;   
+
+}
+
+
+
+
+
+/*Media Queries*/
+@media(max-width:900px){
+    
+    header h1{
+        font-size: 1.5rem! important;
+    }
+    header p{
+        font-size: 1.2rem! important;
+    }
+    
+    #start{
+        height: 300px;
+    }
+    #start-first{
+      
+    }
+    #start-second{
+        font-size: 1.rem! important;
+        text-align: center;
+    }
+    #team img{
+        height: 250px;
+        width: 100%;
+        margin-top: 14px;
+    }
+    
+}
+
+
+
+
+
+
